@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nilva Cafe Menu</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Vazirmatn',sans-serif}
+body{background:#111;color:#fff}
+.hero{height:50vh;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085');background-size:cover;background-position:center;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px}
+.hero h1{font-size:42px;color:#d4af37}
+.hero p{margin-top:10px;color:#ddd}
+.btn{margin-top:20px;padding:12px 25px;background:#d4af37;color:#111;text-decoration:none;border-radius:30px;font-weight:bold}
+.menu-nav{position:sticky;top:0;background:#1a1a1a;padding:12px;overflow:auto;white-space:nowrap}
+.menu-nav a{color:#d4af37;text-decoration:none;margin:0 10px}
+.section{padding:25px 15px}
+.section h2{color:#d4af37;margin-bottom:15px}
+.card{background:#1c1c1c;border:1px solid rgba(212,175,55,.2);border-radius:16px;padding:15px;margin-bottom:12px;display:flex;justify-content:space-between}
+.price{color:#d4af37;font-weight:bold}
+.footer{padding:30px;text-align:center;background:#1a1a1a;margin-top:40px}
+</style>
+</head>
+<body>
+<div class="hero">
+<h1>☕ NILVA CAFE</h1>
+<p>Special Coffee • Food • Dessert</p>
+<a href="#burger" class="btn">مشاهده منو</a>
+</div>
+
+<div class="menu-nav">
+<a href="#burger">🍔 برگر</a>
+<a href="#pasta">🍝 پاستا</a>
+<a href="#salad">🥗 سالاد</a>
+</div>
+
+<div class="section" id="burger">
+<h2>🍔 Burger Bar</h2>
+<div class="card"><span>برگر کلاسیک</span><span class="price">525</span></div>
+<div class="card"><span>برگر چدار</span><span class="price">575</span></div>
+<div class="card"><span>هالوپینو برگر</span><span class="price">565</span></div>
+<div class="card"><span>ماشروم برگر</span><span class="price">585</span></div>
+<div class="card"><span>نیلوا برگر</span><span class="price">725</span></div>
+</div>
+
+<div class="section" id="pasta">
+<h2>🍝 Pasta Time</h2>
+<div class="card"><span>آلفردو</span><span class="price">475</span></div>
+<div class="card"><span>رست بیف</span><span class="price">575</span></div>
+</div>
+
+<div class="section" id="salad">
+<h2>🥗 Starters</h2>
+<div class="card"><span>سالاد سزار گریل</span><span class="price">465</span></div>
+<div class="card"><span>سالاد سزار سوخاری</span><span class="price">495</span></div>
+</div>
+
+<div class="footer">@nilva_cafe</div>
+</body>
+</html>
